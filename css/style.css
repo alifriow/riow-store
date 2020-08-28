@@ -1,0 +1,231 @@
+body {
+    font-family: 'Montserrat';
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #171717;
+}
+
+.nav-item {
+    margin: 0px 15px;
+    font-weight: 200;
+}
+
+.nav-link.active {
+    color: #F9B234 !important;
+    font-weight: 600;
+}
+
+.nav-link span {
+    color: #F9B234;
+    font-weight: 600;
+}
+
+/* Akhir Navbar */
+
+
+/* Carousel*/
+.carousel {
+    background-color: #171717;
+    color: white;
+    height: 450px;
+}
+
+.carousel h1 {
+    font-family: 'Lora';
+    font-weight: 700;
+}
+
+.carousel p {
+    font-weight: 200;
+}
+
+/* Akhir Carousel */
+
+/* Features*/
+
+.features h4 {
+    font-family: 'Lora';
+    font-weight: bold;
+    color: #1B2690;
+}
+
+.features h5 {
+    font-weight: 400;
+    color: #171717;
+}
+
+.features p {
+    font-family: 'Montserrat';
+    color: #B7B7B7;
+}
+
+.img-hover {
+    position: relative;
+}
+
+.img-hover a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 4%;
+    background-color: #000000;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.img-hover a:hover {
+    opacity: .7;
+}
+
+/* Akhir Features */
+
+/* Designers */
+
+
+.figure-designers {
+    position: relative;
+}
+
+.figure-badge {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.designers h4,
+.similiar-product h4,
+.cart-head h4,
+.modal-check h4,
+.category h4 {
+    font-family: 'Lora';
+    font-weight: bold;
+    color: #1B2690;
+}
+
+.designers h5 {
+    font-weight: 400;
+    color: #171717;
+}
+
+.designers .figure:hover h5 {
+    color: #1B2690;
+}
+
+.designers p,
+.similiar-product p,
+.cart-head p,
+.card p,
+.modal-check p,
+.category p {
+    font-family: 'Montserrat';
+    color: #B7B7B7;
+}
+
+/* Akhir Designers */
+
+/* Footer */
+footer a {
+    text-decoration: none;
+}
+
+footer .nav-link {
+    padding-right: 0;
+}
+
+/* Akhir Footer */
+
+
+/* SINGLE PAGE */
+
+/* Breadcrumbs */
+.breadcrumb {
+    margin-top: 100px;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+.product .single-thumbnails {
+    width: 350px;
+    padding: 8px;
+    margin: 0 auto;
+    transform: translateY(-50px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product .btn-product {
+    width: 270px;
+}
+
+.product-description {
+    height: 350px;
+    background-color: #F6F7FB;
+    margin-bottom: 500px;
+}
+
+.review-detail {
+    width: 813px;
+    height: 353px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.review-detail h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.review-detail p {
+    font-weight: 200;
+    color: #ADADAD;
+}
+
+.similiar-product,
+.category {
+    margin-top: 150px;
+}
+
+/* SINGLE PAGE */
+
+/* CART */
+
+.cart-breadcrumb.breadcrumb {
+    margin-top: 40px;
+}
+
+.check h5 {
+    color: #171717;
+    font-weight: 400;
+}
+
+.check input[type=text],
+.check select {
+    background-color: #F6F7FB;
+}
+
+.card h6 {
+    color: #171717;
+}
+
+.card small {
+    color: #1ABC9C;
+}
+
+.check-detail {
+    background-color: #F6F7FB;
+    border: 1px solid #EAEAEA;
+}
+
+footer {
+    margin-top: 100px;
+}
